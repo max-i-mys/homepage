@@ -829,3 +829,35 @@ button {
 		border: none;
 	}
 }
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.container {
+		width: 100%;
+	}
+	.header__applicant-name,
+	.header__applicant-profession {
+		text-align: center;
+	}
+	.charac__lists {
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.charac__num {
+		margin-top: 15px;
+		width: 70px;
+		height: 70px;
+	}
+	.charac__interests-box .charac__info {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.charac__info {
+		padding-top: 0;
+	}
+	.charac__interest {
+		padding-top: 15px;
+	}
+	.charac__interest p {
+		font-size: 1.2rem;
+	}
+}

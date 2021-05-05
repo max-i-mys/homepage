@@ -712,3 +712,35 @@ button {
 }
 /*=================INTERESTS STYLES END===================*/
 /**=================ARTICLE STYLES END===================*/
+/**=================FOOTER STYLES START===================*/
+.footer {
+	padding: 45px 0 30px 0;
+	background-color: var(--theme-color);
+}
+.footer__end {
+	display: flex;
+	justify-content: center;
+	color: var(--light);
+}
+.footer__text {
+	padding: 10px 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+}
+.footer__text:hover,
+.footer__text:focus {
+	text-decoration: underline;
+	animation: 1s headShake;
+}
+.active.footer__text::before {
+	content: "But it is not exactly !!!";
+	display: block;
+	position: absolute;
+	top: -10px;
+	text-align: center;
+	width: 100%;
+	animation: 1s backInUp;
+	font-weight: 900;
+}
+/**=================FOOTER STYLES END===================*/

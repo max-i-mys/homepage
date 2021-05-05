@@ -758,3 +758,20 @@ button {
 		width: 20%;
 	}
 }
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+	}
+	.header__contacts {
+		display: flex;
+		flex-direction: column;
+	}
+	html {
+		font-size: 9px;
+	}
+	.charac__count h5 {
+		font-weight: 900;
+		font-size: 1.2rem;
+	}
+}

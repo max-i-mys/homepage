@@ -626,4 +626,31 @@ button {
 	margin-bottom: 5px;
 }
 /*=================ABOUT STYLES END===================*/
+/*=================WORK STYLES START===================*/
+.charac__experience {
+	display: flex;
+	flex-wrap: wrap;
+}
+.expirience-desk {
+	width: 85%;
+	margin-bottom: 20px;
+}
+.expirience-desk h4 {
+	font-size: 1.9rem;
+	font-weight: 900;
+}
+.expirience-desk h5 {
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.charac__period {
+	width: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--theme-color);
+	font-family: "Coda Caption", sans-serif;
+	font-size: 1.3rem;
+}
+/*=================WORK STYLES END===================*/
 /**=================ARTICLE STYLES END===================*/

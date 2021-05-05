@@ -585,3 +585,45 @@ button {
 	padding: 10px 0;
 }
 /**=================HEADER STYLES END===================*/
+/*=================ABOUT STYLES START===================*/
+.charac__about-box .charac__info {
+	display: flex;
+	flex-direction: column;
+}
+.charac__about-text {
+	padding-bottom: 20px;
+}
+.appraisal .titles {
+	font-size: 2rem;
+	color: var(--theme-color);
+	text-align: center;
+	font-weight: 800;
+}
+.charac__lists {
+	display: flex;
+	padding: 10px 0;
+	justify-content: space-between;
+}
+.charac__count {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: var(--theme-color);
+}
+.charac__count h5 {
+	font-weight: bold;
+}
+.charac__num {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Coda Caption", sans-serif;
+	border: 2px solid var(--theme-color);
+	font-size: 1.6rem;
+	margin-bottom: 5px;
+}
+/*=================ABOUT STYLES END===================*/
+/**=================ARTICLE STYLES END===================*/

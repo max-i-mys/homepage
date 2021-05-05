@@ -744,3 +744,17 @@ button {
 	font-weight: 900;
 }
 /**=================FOOTER STYLES END===================*/
+/* Desktop first method
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.container {
+		max-width: 960px;
+	}
+	.expirience-desk {
+		width: 80%;
+	}
+	.charac__period {
+		width: 20%;
+	}
+}

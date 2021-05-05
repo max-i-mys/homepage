@@ -503,3 +503,85 @@ button {
 	}
 }
 /**=================COMMON STYLES END===================*/
+/**=================HEADER STYLES START===================*/
+.header {
+	border-top: 30px solid var(--theme-color);
+}
+.header-container {
+	display: flex;
+}
+.header__applicant-foto {
+	display: flex;
+	align-items: center;
+	margin-right: 25px;
+	cursor: pointer;
+	position: relative;
+}
+.active.header__applicant-foto::after {
+	content: "It's me! :)";
+	display: flex;
+	width: 150px;
+	padding: 10px 0;
+	color: var(--light);
+	background-color: var(--theme-color);
+	position: absolute;
+	justify-content: center;
+	font-size: 2rem;
+	bottom: 6px;
+	border-radius: 10px;
+	opacity: 0.7;
+	animation: 1s zoomInUp;
+}
+.header__applicant-foto img {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	border: 3px solid var(--theme-color);
+}
+.header__applicant-info {
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+.header__applicant-name,
+.header__applicant-profession {
+	font-family: "Coda Caption", sans-serif;
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+.header__applicant-profession {
+	color: var(--theme-color);
+	margin-bottom: 10px;
+}
+.header__contacts i {
+	width: 30px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	color: var(--theme-color);
+	font-size: 2rem;
+	margin-right: 5px;
+	display: flex;
+}
+.header__contacts-links:hover,
+.header__contacts-links:focus {
+	text-shadow: var(--text-sh-theme);
+	animation: 1s headShake;
+}
+.header__contacts ._icon-github {
+	font-size: 2.5rem;
+}
+.header__contacts {
+	display: flex;
+}
+.header__contacts-list:nth-last-of-type(n + 2) {
+	margin-right: 30px;
+}
+.header__contacts-links {
+	display: flex;
+	align-items: center;
+	font-style: italic;
+	font-weight: 600;
+	padding: 10px 0;
+}
+/**=================HEADER STYLES END===================*/

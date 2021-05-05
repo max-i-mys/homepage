@@ -653,4 +653,36 @@ button {
 	font-size: 1.3rem;
 }
 /*=================WORK STYLES END===================*/
+/*=================SOFTWARES STYLES START===================*/
+.charac__softwares {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.charac__technologies {
+	width: 50%;
+}
+.charac__technologies p {
+	font-weight: 600;
+	text-decoration: underline;
+	margin-bottom: 5px;
+	font-style: italic;
+}
+.charac__tech-experience {
+	padding-bottom: 10px;
+	width: 90%;
+	height: 30px;
+	border: 0;
+}
+.charac__tech-experience::-webkit-progress-bar {
+	background-color: #dfdede;
+}
+.charac__tech-experience::-moz-progress-bar {
+	width: 90%;
+	background-color: #dfdede;
+}
+.charac__tech-experience::-webkit-progress-value {
+	background-color: var(--theme-color);
+}
+/*=================SOFTWARES STYLES END===================*/
 /**=================ARTICLE STYLES END===================*/

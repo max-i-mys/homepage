@@ -775,3 +775,57 @@ button {
 		font-size: 1.2rem;
 	}
 }
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.container {
+		max-width: 540px;
+	}
+	.header-container {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.header__applicant-foto {
+		margin-right: 0;
+	}
+	.header__applicant-info {
+		align-items: center;
+	}
+	.charac__title {
+		margin-right: 0;
+	}
+	.charac__container {
+		flex-direction: column;
+	}
+	.charac__title {
+		justify-content: center;
+	}
+	.charac__num {
+		width: 75px;
+		height: 75px;
+	}
+	.charac__period {
+		width: 100%;
+	}
+	.charac__period:nth-last-of-type(n + 2) {
+		margin-bottom: 20px;
+	}
+	.expirience-desk {
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.expirience-desk h4,
+	.expirience-desk h5 {
+		text-align: center;
+	}
+	.charac__interest i {
+		font-size: 5rem;
+		margin-bottom: 5px;
+		color: var(--theme-color);
+	}
+	.charac__interest p {
+		font-size: 1.4rem;
+	}
+	.charac__title.decoration-row-var-2 {
+		border: none;
+	}
+}

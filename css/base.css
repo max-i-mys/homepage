@@ -685,4 +685,30 @@ button {
 	background-color: var(--theme-color);
 }
 /*=================SOFTWARES STYLES END===================*/
+/*=================INTERESTS STYLES START===================*/
+.charac__interests-box .charac__info {
+	display: flex;
+	justify-content: space-between;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.charac__interest {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.charac__interest i {
+	font-size: 5.5rem;
+	margin-bottom: 5px;
+	color: var(--theme-color);
+}
+.charac__interest p {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.charac__interest:nth-of-type(2n) i {
+	color: var(--dark);
+}
+/*=================INTERESTS STYLES END===================*/
 /**=================ARTICLE STYLES END===================*/

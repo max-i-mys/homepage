@@ -585,6 +585,26 @@ button {
 	padding: 10px 0;
 }
 /**=================HEADER STYLES END===================*/
+/**=================ARTICLE STYLES START===================*/
+.charac__container {
+	display: flex;
+}
+.charac__title {
+	min-width: 200px;
+	margin-right: 25px;
+	font-size: 1.8rem;
+	color: var(--theme-color);
+	font-family: "Coda Caption", sans-serif;
+	text-transform: uppercase;
+	justify-content: flex-end;
+	display: flex;
+	padding: 15px 20px;
+}
+.charac__info {
+	width: 100%;
+	display: flex;
+	padding: 15px 20px;
+}
 /*=================ABOUT STYLES START===================*/
 .charac__about-box .charac__info {
 	display: flex;

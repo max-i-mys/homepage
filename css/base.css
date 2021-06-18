@@ -509,6 +509,7 @@ button {
 }
 .header-container {
 	display: flex;
+	position: relative;
 }
 .header__applicant-foto {
 	display: flex;
@@ -583,6 +584,26 @@ button {
 	font-style: italic;
 	font-weight: 600;
 	padding: 10px 0;
+}
+.header__for-hr {
+	display: flex;
+	position: fixed;
+	top: 40px;
+	right: 40px;
+}
+.header__for-hr a {
+	font-size: 3rem;
+	color: var(--theme-color);
+	width: 40px;
+	height: 40px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.header__for-hr a:hover,
+.header__for-hr a:focus {
+	text-shadow: var(--text-sh-theme);
+	animation: 1s headShake;
 }
 /**=================HEADER STYLES END===================*/
 /**=================ARTICLE STYLES START===================*/

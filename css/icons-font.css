@@ -1,15 +1,17 @@
 @font-face {
 	font-family: "icomoon";
-	src: url("../fonts/icomoon.ttf?s5sqxj") format("truetype"),
-		url("../fonts/icomoon.woff?s5sqxj") format("woff"),
-		url("../fonts/icomoon.svg?s5sqxj#icomoon") format("svg");
+	src: url("../fonts/icomoon.eot?5cpk94");
+	src: url("../fonts/icomoon.eot?5cpk94#iefix") format("embedded-opentype"),
+		url("../fonts/icomoon.ttf?5cpk94") format("truetype"),
+		url("../fonts/icomoon.woff?5cpk94") format("woff"),
+		url("../fonts/icomoon.svg?5cpk94#icomoon") format("svg");
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
 }
 
-[class^="_icon-"],
-[class*=" _icon-"] {
+[class^="_icon"],
+[class*=" _icon"] {
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: "icomoon" !important;
 	speak-as: never;
@@ -24,27 +26,33 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-._icon-print:before {
+._icon-printer:before {
 	content: "\e900";
 }
-._icon-games:before {
+._icon-download:before {
 	content: "\e901";
 }
-._icon-github:before {
+._icon-print:before {
 	content: "\e902";
 }
-._icon-history:before {
+._icon-games:before {
 	content: "\e903";
 }
-._icon-laptop:before {
+._icon-github:before {
 	content: "\e904";
 }
-._icon-mail:before {
+._icon-history:before {
 	content: "\e905";
 }
-._icon-outdoors:before {
+._icon-laptop:before {
 	content: "\e906";
 }
-._icon-phone:before {
+._icon-mail:before {
 	content: "\e907";
+}
+._icon-outdoors:before {
+	content: "\e908";
+}
+._icon-phone:before {
+	content: "\e909";
 }

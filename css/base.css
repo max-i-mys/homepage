@@ -589,7 +589,7 @@ button {
 	display: flex;
 	position: fixed;
 	top: 40px;
-	right: 40px;
+	right: 1%;
 }
 .header__for-hr a {
 	font-size: 3rem;
